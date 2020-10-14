@@ -7,7 +7,7 @@ from IPython.core.display import clear_output
 from warnings import warn
 
 # Create a text file.
-f = open("quotes.txt", "w+")
+f = open("quotes", "w+")
 
 
 # For monitoring the loop.
@@ -16,7 +16,7 @@ num_of_requests = 0
 
 # Set the number of pages to crawl
 min_page = 1
-max_page = 5
+max_page = 20
 pages = [str(i) for i in range(min_page, max_page)]
 
 # Loop through every requested page.
